@@ -1,0 +1,22 @@
+{
+  "arm64": {
+    "python": {
+      "url": "https://releases.astral.sh/github/python-build-standalone/releases/download/20261110/cpython-3.12.16%2B20261110-aarch64-apple-darwin-install_only_stripped.tar.gz",
+      "sha256": "2f11b8aa3726bdbd87dd9eb76568412faddf4f47e26913fa45d6a2e424972acd"
+    },
+    "node": {
+      "url": "https://nodejs.org/dist/v22.23.5/node-v22.23.5-darwin-arm64.tar.xz",
+      "sha256": "d0c68c321161bb2c6483efea9a343010dea8e5e7f60d73c6a7eba140016d662f"
+    }
+  },
+  "x86_64": {
+    "python": {
+      "url": "https://releases.astral.sh/github/python-build-standalone/releases/download/20261110/cpython-3.12.16%2B20261110-x86_64-apple-darwin-install_only_stripped.tar.gz",
+      "sha256": "b78a4c479f1964ec484880bee567568266f68da102269fb93a05fe8716b45f91"
+    },
+    "node": {
+      "url": "https://nodejs.org/dist/v22.23.5/node-v22.23.5-darwin-x64.tar.xz",
+      "sha256": "d68bf234a07781141dfca61ae4461c24560f70bd53223d76a41529eb02e8554e"
+    }
+  }
+}

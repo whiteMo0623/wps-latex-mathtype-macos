@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="latexMathTypeTab" label="LaTeX / MathType">
+        <group id="latexMathTypeGroup" label="公式">
+          <button id="latexMathTypeConvert" label="LaTeX → MathType" size="large"
+                  onAction="OnMathTypeConvert"
+                  screentip="将选区内的 LaTeX 转为 MathType 对象"
+                  supertip="选中正文或表格中的文字，也可以按 Command+A 全选。生成的对象可在装有 MathType 7 的 Windows Word 中编辑。"/>
+          <button id="mathTypeLatexConvert" label="MathType → LaTeX" size="large"
+                  onAction="OnMathTypeDecode"
+                  screentip="将选区内的 MathType 公式还原为 LaTeX"
+                  supertip="可选中一个 MathType 对象、包含公式的正文或表格，也可以按 Command+A 全选。"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
