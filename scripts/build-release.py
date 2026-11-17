@@ -118,7 +118,7 @@ def verify_zip(workspace, archive, arch):
     run('/usr/bin/codesign', '--verify', '--deep', '--strict', app)
     for executable in (app / 'Contents/MacOS' / EXECUTABLE,
                        app / 'Contents/Resources/node/bin/node'):
-        run('/usr/bin/lipo', '-verify_arch', arch, executable)
+        run('/usr/bin/lipo', executable, '-verify_arch', arch)
     resources = app / 'Contents/Resources'
     python = resources / 'python/bin/python3'
     isolated_home = workspace / 'Empty home'
